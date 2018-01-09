@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @author paul
  * @since 02.01.18.
  */
-public class SimpleNoteList extends ArrayList<SimpleNote>{
+public class SimpleNoteList extends ArrayList<SimpleNote> {
 
 
 	public SimpleNoteList() {}

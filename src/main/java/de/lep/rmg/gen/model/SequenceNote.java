@@ -29,6 +29,14 @@ public class SequenceNote extends SimpleNote {
 		return new MidiNote(pitch, volume, start, duration);
 	}
 
+	public void setDuration(int duration) {
+		this.duration = duration;
+	}
+
+	public int getDuration() {
+		return duration;
+	}
+
 	@Override
 	public String toString() {
 		return "SequenceNote{" +
